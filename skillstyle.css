@@ -1,0 +1,129 @@
+body
+{
+	margin:0;
+	padding:0;
+	background:url("img5.jpg");
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-position:50% 50%;
+}
+
+
+.wrapper
+{
+	width:900px;
+	padding-left:20px;
+    margin:20 auto;
+	background-color:rgba(0,0,0,0.4);
+	height:700px;
+
+}
+
+
+.wrapper h1
+{
+	text-align:center;
+	text-transform:uppercase;
+	margin-top:50px;
+	color:white;
+	font-family:sans;
+	font-weight:lighter;
+}
+
+.wrapper h2
+{
+	text-align:left;
+	color:white;
+	font-family:sans;
+	font-weight:lighter;
+}
+
+.line
+{
+	 text-align:left;
+	 min-width:800px;
+	 margin:0 auto 10px;
+	 line-height:25px;
+	 font-size:14px;
+	 color:#fff;
+	 padding:0 0 0 10px;
+	 position:relative;
+	
+	 
+}
+
+
+.line:before
+{
+	content: ' ';
+	width:100%;
+	position:absolute;
+	left:0;
+	height:25px;
+	top:0;
+	z-index:-2;
+	background:black;
+}
+
+.line:after
+{
+	content:' ';
+	background:green;
+	height:25px;
+	transistion:0.8s;
+	display:block;
+	width:100%;
+	animation:animate 1 4s;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+}
+
+.line1:after
+{
+	max-width:70%;
+}
+.line2:after
+{
+	max-width:20%;
+}
+	
+.line3:after
+{
+	max-width:40%;
+}
+	
+.line4:after
+{
+	max-width:50%;
+}
+
+.line5:after
+{
+	max-width:65%;
+}
+	
+.line6:after
+{
+	max-width:50%;
+}
+	
+
+
+
+
+
+
+@keyframes animate
+{
+	
+	0%{
+		width:0;
+	}
+	
+	100%{
+		width:100%;
+	}
+}
+	
