@@ -13,10 +13,9 @@ body
 {
 	width:900px;
 	padding-left:20px;
-    margin:20 auto;
-	background-color:rgba(0,0,0,0.4);
-	height:700px;
-
+    margin:0 auto;
+	background-color:rgba(0,0,0,0.5);
+	height:950px;
 }
 
 
@@ -24,9 +23,9 @@ body
 {
 	text-align:center;
 	text-transform:uppercase;
-	margin-top:50px;
+	margin-top:40px;
 	color:white;
-	font-family:sans;
+	font-family:sans-serif;
 	font-weight:lighter;
 }
 
@@ -34,7 +33,7 @@ body
 {
 	text-align:left;
 	color:white;
-	font-family:sans;
+	font-family:sans-serif;
 	font-weight:lighter;
 }
 
@@ -62,13 +61,13 @@ body
 	height:25px;
 	top:0;
 	z-index:-2;
-	background:white;
+	background:#d2d6d7;
 }
 
 .line:after
 {
 	content:' ';
-	background:green;
+	background:#31A6FF;
 	height:25px;
 	transistion:0.8s;
 	display:block;
@@ -86,30 +85,43 @@ body
 }
 .line2:after
 {
-	max-width:20%;
+	max-width:75%;
 }
 	
 .line3:after
 {
-	max-width:40%;
+	max-width:55%;
 }
 	
 .line4:after
 {
-	max-width:50%;
+	max-width:70%;
 }
 
 .line5:after
 {
-	max-width:65%;
+	max-width:80%;
 }
 	
 .line6:after
 {
-	max-width:50%;
+	max-width:85%;
 }
 	
+.line7:after
+{
+	max-width:75%;
+}
 
+.line8:after
+{
+	max-width:75%;
+}
+
+.line9:after
+{
+	max-width:60%;
+}
 
 
 
@@ -126,4 +138,3 @@ body
 		width:100%;
 	}
 }
-	
