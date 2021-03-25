@@ -83,7 +83,7 @@ a
 	font-weight:100;
 	font-size:20px;
 	text-align:center;
-	border:2px solid #31A6FF;
+	border:4px solid #05548d;
 	border-radius:30px;
 	padding:10px 80px;
 	-webkit-transition-duration:200ms;
@@ -103,7 +103,7 @@ a
 	font-weight:100;
 	font-size:20px;
 	text-align:center;
-	border:2px solid #31A6FF;
+	border:4px solid #0c0c0c;
 	border-radius:30px;
 	padding:10px 50px;
 	-webkit-transition-duration:200ms;
@@ -125,7 +125,7 @@ a
 	font-weight:100;
 	font-size:20px;
 	text-align:center;
-	border:2px solid #31A6FF;
+	border:4px solid #05548d;
 	border-radius:30px;
 	padding:10px 80px;
 	-webkit-transition-duration:200ms;
@@ -146,9 +146,9 @@ a
 	font-weight:100;
 	font-size:20px;
 	text-align:center;
-	border:2px solid #31A6FF;
+	border:4px solid #030303;
 	border-radius:30px;
-	padding:10px 45px;
+	padding:10px 50px;
 	-webkit-transition-duration:200ms;
 	transition-duration:200ms
 	
@@ -167,9 +167,9 @@ a
 	font-weight:100;
 	font-size:20px;
 	text-align:center;
-	border:2px solid #31A6FF;
+	border:4px solid #05548d;
 	border-radius:30px;
-	padding:10px 60px;
+	padding:10px 50px;
 	-webkit-transition-duration:200ms;
 	transition-duration:200ms
 	
@@ -180,6 +180,46 @@ a
 	background-color:#31A6FF;
 	color:#fff;
 }
+	
+.hireme
+{
+	font-family:"proxima nova";
+	font-weight:100;
+	font-size:20px;
+	text-align:center;
+	border:5px solid #50a15d;
+	border-radius:30px;
+	padding:10px 70px;
+	-webkit-transition-duration:200ms;
+	transition-duration:200ms
+	
+}
+	
+.hireme:hover
+{
+	background-color:#12f14a;
+	color:#fff;
+}
+.certificate
+{
+	font-family:"proxima nova";
+	font-weight:100;
+	font-size:20px;
+	text-align:center;
+	border:4px solid #05548d;
+	border-radius:30px;
+	padding:10px 50px;
+	-webkit-transition-duration:200ms;
+	transition-duration:200ms
+	
+}
+	
+.certificate:hover
+{
+	background-color:#31A6FF;
+	color:#fff;
+}
+
 	
 	
 	
