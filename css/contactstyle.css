@@ -46,3 +46,23 @@ img
 	font-family:Modern No 20;
 }
 
+.home
+{
+	font-family:"proxima nova";
+	font-weight:100;
+	font-size:20px;
+	text-align:center;
+	border:4px solid #05548d;
+	border-radius:30px;
+	padding:5px 50px;
+	-webkit-transition-duration:200ms;
+	transition-duration:200ms;
+	color:rgb(15, 12, 12);
+	
+}
+	
+.home:hover
+{
+	background-color:#31A6FF;
+	color:#fff;
+}
