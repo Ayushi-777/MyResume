@@ -28,6 +28,7 @@
 	width:500px;
 	height:720px;
 	border-radius:50px;
+	margin-top: 3%;
 }
 
 img
@@ -36,7 +37,7 @@ img
 	height:100px;
 	border-radius:80px;
 	border:1px solid white;
-	margin-top:10px;
+	margin-top:20px;
 }
 
 
